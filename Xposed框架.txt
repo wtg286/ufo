@@ -1,0 +1,42 @@
+Xposed框架，不是求之不得的神器，只需看完本文！
+　　得益于安卓的高度可玩性，安卓上神器无数。但要问安卓上最强神器是什么？相信很多人的答案都会是“Xposed框架”。Xposed框架这个安卓App自诞生以来，就抓住了无数安卓玩家们的眼球。即使是在高手如云的XDA论坛上，Xposed框架也被不少开发者誉为“安卓第一神器”——高手都这么说了，不管你信不信，反正我是信了。
+软件名称：    Xposed框架
+软件版本：    3.0.4
+软件大小：    611.8 KB
+软件授权：    免费
+适用平台：    Android 5.1 up
+下载地址：    文章结尾
+　　Xposed框架能获得这个头衔，可不是浪得虚名，不少玩家为了让系统兼容Xposed，甚至放弃开启安卓4.4中能让App效率大大提高的ART模式，Xposed框架的实力可见一斑。那么Xposed具体有什么作用？为什么会被誉为“安卓第一神器”？今天笔者就为大家介绍一下Xposed框架，让更多人领略到Xposed框架的魅力。
+
+　　如其他很多安卓神器一样，Xposed框架这款App诞生于安卓开发者云集的XDA论坛。Xposed框架是一款特殊的安卓App，其主要功能是提供一个新的应用平台，玩家们安装Xposed框架后，就能够通过Xposed框架搭建起的平台安装更多系统级的应用，实现诸多神奇的功能——从使用方面来说，和iOS越狱后的Cydia平台体验类似。
+
+        Xposed框架的原理是修改系统文件，有一定风险，如变砖、无限重启等。需谨慎！
+
+　　Xposed框架的原理是替换安卓系统/System/bin目录下的文件，从而实现对系统某些功能的接管，进而给予基于Xposed框架开发的App更多权限，安卓玩家们可以通过安装基于Xposed框架的App（Xposed模块），把安卓玩出花。由于是通过安装基于Xposed框架的App来修改系统，所以风险会比直接修改系统文件来得少，对于半桶水的玩家来说，这点颇为人性化。当然，调教总是有风险的，一个不小心，也有可能会把系统玩坏就是了，作死了就会死，大家得明白这点。
+
+Xposed安装方法: 5.0以上通用
+注意：V80仅支持Android 5.1up
+
+1、在当前手机中安装xposed安装器” XposedInstaller_v3.0-alpha4_Modified.Kane.Multi.apk”；
+2、XposedInstaller界面点击框架选择正常重启，获得root权限（重要）
+3、进入第三方Recovery中，卡刷xposed-v80-sdkXX-arm##.zip 激活包。
+如果仍未激活框架可以尝试XposedInstaller界面点击框架更换安装方式为【Recovery刷入（仅将zip刷机包写入SD卡，然后手动刷入）】
+然后重复第3步
+【重要提醒】
+必须了解自己当前系统的CPU版本和系统版本：
+sdkXX (XX 代表安卓系统版本，sdk21代表5.0系统；sdk22代表5.1系统；sdk23代表6.0系统)
+arm## (## 代表cpu版本，arm代表32位cpu；arm64代表64位cpu)
+
+Xposed激活模块：
+首先安装好模块(Xposed Framework modules)，然后打开Xposed安装器(Xposed Installer)选择“模块”选项，然后将所需激活的模块打钩，然后重启手机即可使用。
+
+Xposed框架卸载方法：
+1）首先在系统中卸载Xposed安装器(XposedInstaller)；
+2）然后进入第三方Recovery中，卡刷Xposed卸载包“xposed-uninstaller-xxxxxxx-arm##.zip”。
+
+因为框架模块组件包需Recovery手动刷入，所以在此提供Recovery简单教程
+Recovery教程：http://jingyan.baidu.com/article/f25ef254002bde482c1b8222.html
+（个人觉得第三方Recovery是拿回手机产权的第一步，否则仅有使用权。）
+（友情提示：利用第三方Recovery刷入SuperSU Pro，root安卓5.0up很简单。）
+
+想必你已对Xposed框架有了一定的了解了吧！
